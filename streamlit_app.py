@@ -3,7 +3,7 @@ import joblib
 import pandas as pd
 
 # Load the pre-trained XGBoost model
-final_xgb_model = joblib.load('/content/final_xgboost_model.joblib')
+final_xgb_model = joblib.load('final_xgboost_model.joblib')
 
 def predict_price(horsepower, curbweight, enginesize):
     # Create a DataFrame with the input features
